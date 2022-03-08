@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&display=swap');
+
+
+body {
+    background-color: aliceblue;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto Serif', cursive;
+    display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.cold-vision {
+    max-width: 50%;
+    display: grid;
+    margin-top: 50px;
+}
+
+.title {
+    display: flex;
+    position: fixed;
+    width: 55%;
+    height: 90px;
+    background: rgb(250, 250, 250);
+    margin-top: 0%;
+    padding: 0px;
+    margin-bottom: 1350px;
+}
+
+.title img {
+    margin-top: 10px ;
+    padding: 25px;
+    width: 47px;
+    height: 47px;
+}
+
+.h1t {
+    padding-top: 25px;
+}
+
+.text {
+    color: rgba(145, 143, 143, 0.986);
+}
+
+.con input {
+    padding: 20px 30px;
+    background-color: rgb(184, 181, 181);
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.con:hover {
+    opacity: 0.9;
+}
+
+.dig u {
+    text-decoration: underline solid aqua 5px;
+}
+
+.sub {
+    display: flex;
+    margin: 0%;
+}
+
+.sub img {
+    width: 40px;
+    height: 40px;
+}
+
+.etc input {
+    width: 450px;
+    height: 55px;
+    border: solid black 1px;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    font-family: inherit ;
+    background: rgb(238, 238, 238);  
+    margin: 15px;
+     
+}
+
+.info p {
+    color: gray;
+}
+
+.text1 {
+    width: 100%;
+    display: flex;
+    font: inherit;
+    margin: 10px;
+    color: gray;
+}
+
+.text1 u {
+    text-decoration: underline solid gray 1px;
+}
+
+.text1 img {
+    height: 30px;
+    width: 30px;
+}
+
+.huwear {
+    margin-top: 100px;
+}
+
+.huwear span{
+   background-color: rgba(169, 238, 169, 0.521);
+   padding: 7px;
+   border-radius: 10px;
+}
+
+.huwear p {
+   color: rgba(145, 143, 143, 0.986);;  
+}
+
+.huwear u {
+    text-decoration: underline solid aqua 5px;
+}
+
+.boxes {
+    font: inherit;
+    width: 100%;
+    display: flex;
+}
+
+.box1 {
+    border: solid aqua 4px;
+    width: 40%;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.box2 {
+    border: solid lightcoral 4px;
+    width: 40%;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.box3 {
+    border: solid rgb(233, 82, 233) 4px;
+    width: 40%;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.box4 {
+    border: solid rgb(253, 253, 116) 4px;
+    width: 40%;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.box5 {
+    border: solid rgba(128, 0, 128, 0.74) 4px;
+    width: 40%;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.boxes1 {
+    display: flex;
+    height: 160px;
+    width: 550px;
+    padding-left: 40px;
+}
+
+.work h3 {
+    margin-left: 210px;
+    padding: 15px;
+    border-radius: 20px;
+    color: rgb(82, 82, 255);
+    background-color: lightblue;
+}
+
+.work h2 {
+    margin-left: 50px;
+}
+
+.input {
+    margin-left: 245px;
+    display: flex;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 10px;
+    background: black;
+    color: white;
+}
+
+.input img {
+    width: 20px;
+    padding-top: 13px;
+    padding: 10px;
+}
+
+.experts p {
+    background-color: rgb(255, 255, 212);
+    color: rgb(238, 255, 0);
+    width: 130px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.images img {
+    height: 370px;
+    width: 390px;
+    border-radius: 30px;
+    margin-left: 130px;
+}
+
+.images p {
+    color: grey;
+}
+
+.irakli {
+    margin-left: 150px;
+}
